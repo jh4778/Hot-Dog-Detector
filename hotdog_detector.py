@@ -18,5 +18,5 @@ print(metrics)  # includes mAP (mean average precision)
 
 # 5. Run inference on a test image
 results = model("test_hotdog.jpg")  # replace with your test image path
-results.show()                      # shows the image with boxes
-results.save("outputs/")            # saves the annotated image(s)
+results[0].show()                      # shows the image with boxes
+results[0].save("outputs/")            # saves the annotated image(s)
