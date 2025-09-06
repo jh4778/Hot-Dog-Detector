@@ -1,5 +1,4 @@
 train: hotdog_dataset/images/train
 val: hotdog_dataset/images/val
-
-names:
-  0: hotdog
+nc: 1
+names: ['hotdog']
