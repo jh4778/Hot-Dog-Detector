@@ -1,5 +1,5 @@
-train: hotdog_dataset/train/images
-val: dataset/valid/images
+train: hotdog_dataset/images/train
+val: hotdog_dataset/images/val
 
 names:
   0: hotdog
